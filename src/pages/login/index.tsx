@@ -114,5 +114,5 @@ export function Login() {
         </form>
       </div>
     </div>
-  );
+  )
 }

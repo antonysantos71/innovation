@@ -3,9 +3,11 @@ type FacebookIconProps = React.SVGProps<SVGSVGElement>;
 export function FacebookIcon(props: FacebookIconProps) {
   return (
     <svg
-      viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
+      aria-label="Facebook"
+      role="img"
+      viewBox="0 0 512 512"
+      fill="#000000"
       {...props}
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -15,13 +17,10 @@ export function FacebookIcon(props: FacebookIconProps) {
         stroke-linejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
+        <rect width="512" height="512" rx="15%" fill="#1877f2"></rect>
         <path
-          fill="#1877F2"
-          d="M15 8a7 7 0 00-7-7 7 7 0 00-1.094 13.915v-4.892H5.13V8h1.777V6.458c0-1.754 1.045-2.724 2.644-2.724.766 0 1.567.137 1.567.137v1.723h-.883c-.87 0-1.14.54-1.14 1.093V8h1.941l-.31 2.023H9.094v4.892A7.001 7.001 0 0015 8z"
-        ></path>
-        <path
+          d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z"
           fill="#ffffff"
-          d="M10.725 10.023L11.035 8H9.094V6.687c0-.553.27-1.093 1.14-1.093h.883V3.87s-.801-.137-1.567-.137c-1.6 0-2.644.97-2.644 2.724V8H5.13v2.023h1.777v4.892a7.037 7.037 0 002.188 0v-4.892h1.63z"
         ></path>
       </g>
     </svg>

@@ -1,4 +1,5 @@
 import { Dashboard } from "@/pages/dashboard";
+import { Account } from "@/pages/dashboard/account";
 import { Startups } from "@/pages/dashboard/ecosystem/startups";
 import { StartupsDetails } from "@/pages/dashboard/ecosystem/startups/startups-details";
 import { Login } from "@/pages/login";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "startups",
         element: <Startups/>,
+      },
+      {
+        path: "account",
+        element: <Account/>,
       },
       {
         path: "startups/:id",

@@ -80,7 +80,7 @@ export function Dashboard() {
             </Breadcrumb>
           </div>
           <div className="mr-5 flex items-center gap-3">
-            <span>Antony santos</span>
+            <span className="hidden sm:block">Antony santos</span>
             <Avatar>
               <AvatarImage src="https://avatars.githubusercontent.com/u/115037549?v=4" />
               <AvatarFallback>AS</AvatarFallback>
@@ -149,7 +149,7 @@ export function Dashboard() {
                         </Avatar>
                       </div>
                       <CardTitle className="text-2xl text-center">
-                        Cola {index + 1}
+                        Colaborador 0{index + 1}
                       </CardTitle>
                     </CardHeader>
                     <CardDescription className="p-4 text-center">

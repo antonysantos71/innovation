@@ -3,7 +3,7 @@ import { Routers } from "./routers";
 export function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Routers />;
+      <Routers />
     </ThemeProvider>
   );
 }
